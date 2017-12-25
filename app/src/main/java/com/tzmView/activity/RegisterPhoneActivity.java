@@ -1,5 +1,6 @@
 package com.tzmView.activity;
 
+import com.tzmController.ValidateTelephone;
 import com.tzmView.R;
 import com.tzmView.view.TextURLView;
 import com.tzmView.view.TitleBarView;
@@ -64,6 +65,12 @@ public class RegisterPhoneActivity extends Activity {
 	
 	private void initTvUrl(){
 		mTextViewURL.setText(R.string.tv_xieyi_url);
+	}
+
+//	验证用户是否已经输入了手机号码或者手机号码是否正确-->莫磊
+	private boolean validateTelephone(){
+		ValidateTelephone validateTelephone=ValidateTelephone.getInstance();
+		return validateTelephone.validateTelephone(R.id.et_phoneNumber);
 	}
 
 }

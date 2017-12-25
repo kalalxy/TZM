@@ -60,6 +60,7 @@ public class LoginActivity extends Activity {
 		@Override
 		public void onClick(View v) {
 //	待实现验证功能->伟哥
+
 			Intent intent=new Intent(mContext,MainActivity.class);
 			startActivity(intent);
 			finish();
@@ -73,6 +74,7 @@ public class LoginActivity extends Activity {
 		@Override
 		public void onClick(View v) {
 			//	待实现验证功能->伟哥
+
 			Intent intent=new Intent(mContext, RegisterPhoneActivity.class);
 			startActivity(intent);
 			
