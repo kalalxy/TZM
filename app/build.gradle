@@ -21,6 +21,7 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:18.0.0'
     compile files('libs/zxing-1.6.jar')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
     // 聊天室需要
     compile 'com.netease.nimlib:chatroom:4.4.0'
     // 全文检索服务需要

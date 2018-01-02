@@ -102,6 +102,9 @@
     <orderEntry type="library" name="com.android.support:support-v4:18.0.0@jar" level="project" />
     <orderEntry type="library" name="__local_aars__:/home/kal-al/android-workspace/TZM/app/libs/zxing-1.6.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.netease.nimlib:chatroom-4.4.0" level="project" />
+    <orderEntry type="library" name="__local_aars__:/home/kal-al/android-workspace/TZM/app/libs/nim-sdk-1.5.0.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:/home/kal-al/android-workspace/TZM/app/libs/cosinesdk.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.netease.nimlib:lucene-4.4.0" level="project" />
+    <orderEntry type="library" name="__local_aars__:/home/kal-al/android-workspace/TZM/app/libs/netty-4.0.23-for-yx.final.jar:unspecified@jar" level="project" />
   </component>
 </module>
