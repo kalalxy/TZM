@@ -1,5 +1,7 @@
 package com.tzmView.activity;
 
+import com.netease.nimlib.sdk.auth.LoginInfo;
+import com.tzmModel.LoginModel;
 import com.tzmView.MainActivity;
 import com.tzmView.R;
 import com.tzmView.view.TextURLView;
@@ -13,7 +15,9 @@ import android.view.View.OnClickListener;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 public class LoginActivity extends Activity {
 
@@ -22,6 +26,10 @@ public class LoginActivity extends Activity {
 	private Button mLogin;
 	private Button register;
 	private TextURLView mTextViewURL;
+	private EditText account;
+	private EditText password;
+	private LoginModel loginModel;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -37,6 +45,8 @@ public class LoginActivity extends Activity {
 		mLogin=(Button) findViewById(R.id.login);
 		register=(Button) findViewById(R.id.register);
 		mTextViewURL=(TextURLView) findViewById(R.id.tv_forget_password);
+		account=(EditText) findViewById(R.id.account);
+		password=(EditText)findViewById(R.id.password);
 	}
 
 //	初始化数据，给动画和按钮注册监听器
@@ -60,11 +70,11 @@ public class LoginActivity extends Activity {
 		@Override
 		public void onClick(View v) {
 //	待实现验证功能->伟哥
-
-			Intent intent=new Intent(mContext,MainActivity.class);
-			startActivity(intent);
-			finish();
-			
+			if(checkAccountAndPassword()) {
+				LoginInfo info = new LoginInfo(account.getText().toString(), password.getText().toString()); // config...
+				loginModel = LoginModel.getInstance();
+				loginModel.login(info, account.getText().toString());
+			}
 		}
 	};
 
@@ -74,7 +84,6 @@ public class LoginActivity extends Activity {
 		@Override
 		public void onClick(View v) {
 			//	待实现验证功能->伟哥
-
 			Intent intent=new Intent(mContext, RegisterPhoneActivity.class);
 			startActivity(intent);
 			
@@ -89,4 +98,17 @@ public class LoginActivity extends Activity {
 
 		}
 	};
+
+//	检查用户名和密码是否为空
+	private boolean checkAccountAndPassword(){
+		if(!account.getText().toString().equals("")){
+			if(!password.getText().toString().equals("")){
+				return true;
+			}
+			Toast.makeText(this, "密码不能为空！", Toast.LENGTH_SHORT).show();
+			return false;
+		}
+		Toast.makeText(this, "用户名不能为空！", Toast.LENGTH_SHORT).show();
+		return false;
+	}
 }

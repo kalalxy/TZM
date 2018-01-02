@@ -656,6 +656,10 @@
         "source": "/home/kal-al/android-workspace/TZM/app/src/main/res/drawable/progressbar_bg.xml"
     },
     {
+        "merged": "/home/kal-al/android-workspace/TZM/app/build/intermediates/res/merged/debug/drawable_ic_stat_notify_msg.png.flat",
+        "source": "/home/kal-al/android-workspace/TZM/app/src/main/res/drawable/ic_stat_notify_msg.png"
+    },
+    {
         "merged": "/home/kal-al/android-workspace/TZM/app/build/intermediates/res/merged/debug/drawable-hdpi_qq_setting_setting.png.flat",
         "source": "/home/kal-al/android-workspace/TZM/app/src/main/res/drawable-hdpi/qq_setting_setting.png"
     },

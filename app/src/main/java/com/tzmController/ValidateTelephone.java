@@ -14,8 +14,9 @@ public class ValidateTelephone {
     private ValidateTelephone() {}
 
     public boolean validateTelephone(int telephone){
-        if(Integer.bitCount(telephone)!=0){
+        if(Integer.bitCount(telephone)==11){
 //            TODO 莫磊
+            return true;
         }
         return false;
     }
