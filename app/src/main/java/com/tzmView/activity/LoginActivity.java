@@ -1,5 +1,6 @@
 package com.tzmView.activity;
 
+import com.netease.nimlib.sdk.NIMClient;
 import com.netease.nimlib.sdk.auth.LoginInfo;
 import com.tzmModel.LoginModel;
 import com.tzmView.MainActivity;
@@ -33,6 +34,7 @@ public class LoginActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		NIMClient.init(getApplicationContext(), null, null);
 		setContentView(R.layout.activity_login);
 		mContext=this;
 		findView();
@@ -69,7 +71,7 @@ public class LoginActivity extends Activity {
 		
 		@Override
 		public void onClick(View v) {
-//	待实现验证功能->伟哥
+//	待实现登录验证功能->伟哥
 			if(checkAccountAndPassword()) {
 				LoginInfo info = new LoginInfo(account.getText().toString(), password.getText().toString()); // config...
 				loginModel = LoginModel.getInstance();

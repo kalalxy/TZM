@@ -12,8 +12,6 @@ import com.tzmView.MainActivity;
 import com.tzmView.activity.LoginActivity;
 import com.tzmView.util.CacheUtil;
 
-import static android.support.v4.app.ActivityCompat.startActivity;
-
 /**
  * Created by kal-al on 18-1-2.
  */
