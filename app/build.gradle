@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.qq"
-        minSdkVersion 8
+        minSdkVersion 14
         targetSdkVersion 18
     }
 
@@ -21,4 +21,8 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:18.0.0'
     compile files('libs/zxing-1.6.jar')
+    // 聊天室需要
+    compile 'com.netease.nimlib:chatroom:4.4.0'
+    // 全文检索服务需要
+    compile 'com.netease.nimlib:lucene:4.4.0'
 }

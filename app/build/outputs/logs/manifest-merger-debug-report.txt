@@ -4,6 +4,8 @@ ADDED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:2
 INJECTED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:2:1-70:12
 INJECTED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:2:1-70:12
 INJECTED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:2:1-70:12
+MERGED from [com.netease.nimlib:chatroom:4.4.0] /home/kal-al/.gradle/wrapper/dists/gradle-4.1-all/caches/transforms-1/files-1.1/chatroom-4.4.0.aar/ac5a8164516ea438345289740d1ff918/AndroidManifest.xml:2:1-11:12
+MERGED from [com.netease.nimlib:lucene:4.4.0] /home/kal-al/.gradle/wrapper/dists/gradle-4.1-all/caches/transforms-1/files-1.1/lucene-4.4.0.aar/3f173777e98c768b24c08bec4a148ad0/AndroidManifest.xml:2:1-11:12
 INJECTED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:2:1-70:12
 INJECTED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:2:1-70:12
 INJECTED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:2:1-70:12
@@ -25,6 +27,10 @@ uses-sdk
 ADDED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:7:5-9:41
 INJECTED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:7:5-9:41
 INJECTED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.netease.nimlib:chatroom:4.4.0] /home/kal-al/.gradle/wrapper/dists/gradle-4.1-all/caches/transforms-1/files-1.1/chatroom-4.4.0.aar/ac5a8164516ea438345289740d1ff918/AndroidManifest.xml:7:5-9:41
+MERGED from [com.netease.nimlib:chatroom:4.4.0] /home/kal-al/.gradle/wrapper/dists/gradle-4.1-all/caches/transforms-1/files-1.1/chatroom-4.4.0.aar/ac5a8164516ea438345289740d1ff918/AndroidManifest.xml:7:5-9:41
+MERGED from [com.netease.nimlib:lucene:4.4.0] /home/kal-al/.gradle/wrapper/dists/gradle-4.1-all/caches/transforms-1/files-1.1/lucene-4.4.0.aar/3f173777e98c768b24c08bec4a148ad0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.netease.nimlib:lucene:4.4.0] /home/kal-al/.gradle/wrapper/dists/gradle-4.1-all/caches/transforms-1/files-1.1/lucene-4.4.0.aar/3f173777e98c768b24c08bec4a148ad0/AndroidManifest.xml:7:5-9:41
 INJECTED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:7:5-9:41
 INJECTED from /home/kal-al/android-workspace/TZM/app/src/main/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion

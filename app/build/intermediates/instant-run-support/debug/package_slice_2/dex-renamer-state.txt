@@ -1,4 +1,0 @@
-#Tue Dec 12 10:03:18 CST 2017
-base.0=/usr/android-workspace-kal-al/2017/svn/TZM/app/build/intermediates/transforms/dexMerger/debug/2
-path.0=classes.dex
-renamed.0=classes.dex

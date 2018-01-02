@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.netease.nimlib:chatroom-4.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.1-all/caches/transforms-1/files-1.1/chatroom-4.4.0.aar/ac5a8164516ea438345289740d1ff918/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.1-all/caches/transforms-1/files-1.1/chatroom-4.4.0.aar/ac5a8164516ea438345289740d1ff918/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.1-all/caches/modules-2/files-2.1/com.netease.nimlib/chatroom/4.4.0/e2e88cb32a16efc2abee033747494a55cef09be6/chatroom-4.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
